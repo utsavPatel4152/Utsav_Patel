@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Registration</title>
+</head>
+
+<body>
+    <h1 align="center">Registration</h1>
+    <form>
+        <input type="text" placeholder="Name" id="nameReg"><br>
+        <input type="text" placeholder="Email" id="emailReg"><br>
+        <input type="text" placeholder="Password" id="passwordReg"><br>
+        <input type="text" placeholder="Confirm Password" id="confirmPasswordReg"><br>
+        <select name="city" id="cityReg">
+            <option value="selectCity">Select City
+            <option>
+            <option value="rajkot">Rajkot</option>
+            <option value="surat">Surat</option>
+            <option value="baroda">Baroda</option>
+        </select><br>
+        <select name="state" id="stateReg">
+            <option value="selectState">Select State
+            <option>
+            <option value="gujarat">Gujarat</option>
+            <option value="goa">Goa</option>
+            <option value="kerala">Kerala</option>
+        </select><br>
+
+        <input type="checkbox" name="Terms & Conditions" value="Terms & Conditions">
+        Terms & Conditions<br>
+        <input type="button" value="Register" onclick="onRegister()">
+    </form>
+</body>
+
+<script src="register_now.js"></script>
+
+</html>

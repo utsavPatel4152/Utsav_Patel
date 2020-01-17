@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Update User</title>
+</head>
+
+<body>
+    <h3>Update User</h3>
+
+    <input type="text" placeholder="Name" id="nameUser">
+    <input type="text" placeholder="Email" id="emailUser">
+    <input type="text" placeholder="Password" id="passwordUser">
+    <input type="date" placeholder="BirthDate" id="BirthDateUser"><br><br>
+    <input type="button" value="Add User" onclick="onUpdate()">
+
+    <h3>Users List</h3>
+</body>
+
+<table border="1">
+    <tr>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Password</th>
+        <th>BirthDate</th>
+        <th>Actions</th>
+    </tr>
+
+    <tbody id='userTable'>
+    </tbody>
+</table>
+
+<script src="updateUserJS.js"></script>
+
+</html>
